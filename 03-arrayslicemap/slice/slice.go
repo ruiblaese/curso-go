@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	a1 := [3]int{1, 2, 3} // array
-	s1 := []int{1, 2, 3}  // slice
+	a1 := [3]int{1, 2, 3}   // array
+	s1 := []int{11, 22, 33} // slice
 	fmt.Println(a1, s1)
 	fmt.Println(reflect.TypeOf(a1), reflect.TypeOf(s1))
 
